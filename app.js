@@ -53,7 +53,13 @@ console.log(arr)
 console.log(typeof arr)
 
 
+let Name1 = "thirunilai"
 
+
+console.log(Name1.toUpperCase())
+// This is to tell that primitive data types does not have any methods associated with it..bt above u used method.. after period. .. its because of coercion..
+
+// You can change the values of assigned variables.but you cant declare a variable again which has already been declared
 
 
 
