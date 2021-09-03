@@ -146,6 +146,66 @@ console.log(p1===p2)
 // == compares only value..so p1==p2 is true.bt p1===p2 chks value as well as type..so its false
 
 
+// Logical operators
+
+p1=2
+p2=3
+console.log(p1==p2)
+console.log(p1!=p2)
+// Logical and operator
+
+console.log(false&&false)
+console.log(false&&true)
+console.log(true&&false)
+console.log(true&&true)
+
+// Logical or operator
+
+console.log("------------")
+console.log(false||false)
+console.log(false||true)
+console.log(true||false)
+console.log(true||true)
+
+
+p1 = 10
+p2 = 50
+let p3 = 55
+
+console.log(p3>p1&& p3<p2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
