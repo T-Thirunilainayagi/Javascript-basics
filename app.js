@@ -70,6 +70,14 @@ console.log(Name1.toUpperCase())
 const a = 2
 const b = 15
 
+const a1="anu"
+const a2="thiru"
+console.log(a1 + a2)
+
+const a3="2"
+const a4=3
+console.log(a3-a4)
+// in the above example string acts as number since operator is -. auto type conversion happens
 console.log(a + b)
 
 console.log(a - b)
@@ -79,6 +87,7 @@ console.log(a * b)
 console.log(a / b)
 
 console.log(a ** b)
+// Exponent **
 
 console.log(b % a)
 
@@ -95,3 +104,19 @@ c *= 5
 // c = c * 5 = 5*5 = 25
 
 console.log(c)
+
+
+// Assignment operator
+let d="anu"
+
+let name="sakshi"
+let an=19
+an+=name
+console.log(an)
+console.log(typeof an)
+
+// this happens bcs 19 converted to string by tc and gets added..the type is gonna be string
+
+
+
+
