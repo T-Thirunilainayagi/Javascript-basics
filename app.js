@@ -63,3 +63,9 @@ console.log(Name1.toUpperCase())
 
 
 
+// operators
+
+const names="thiru"
+// names="anu"
+// cannot Change const val
+// Aruiyhmetic operators
