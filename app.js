@@ -118,5 +118,36 @@ console.log(typeof an)
 // this happens bcs 19 converted to string by tc and gets added..the type is gonna be string
 
 
+// Comparision ops
+
+let p=21
+let q=7
+let r=21
+
+console.log(p>q)
+console.log(p<q)
+console.log(p==q)
+console.log(p==r)
+console.log(p>=r)
+
+console.log("----------------------------")
+
+let p1= "12"
+let p2= 12
+console.log(p1==p2)
+// == loose comparision..compares by just typecasting..
+
+// p1="gaurav"
+// p2="Gaurav"
+// console.log(p1==p2)
+// not equal since letter case varies 
+
+console.log(p1===p2)
+// == compares only value..so p1==p2 is true.bt p1===p2 chks value as well as type..so its false
+
+
+
+
+
 
 
