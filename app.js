@@ -174,6 +174,119 @@ let p3 = 55
 
 console.log(p3>p1&& p3<p2)
 
+// Conditional statements
+
+// If and else...
+
+let t=99;
+
+if(t%2===0)
+   console.log("The number is even")
+else 
+   console.log("The number is odd")   
+
+// Best to use === since type mismatch cant happen
+
+t="99"
+if (typeof t==="number")
+{
+  if(t%2===0){
+    console.log("The number is even")
+  }
+   else {
+    console.log("The number is odd")  
+   }
+}
+
+else{
+    console.error("Not a number")
+}
+// For ip 0 and floats the condition fails to chk..\\
+
+console.log("------------")
+t=0
+if (typeof t==="number")
+if(t!=0)
+{
+  if(t%2===0){
+    console.log("The number is even")
+  }
+   else {
+    console.log("The number is odd")  
+   }
+}
+
+else if(t===0){
+    console.error("neither odd nor even")
+}
+else{
+    console.error("Not a number")
+}
+
+// if no elseif in above condition means reqd crt op wont be produced
+
+// if is a new conditional blk itself...else if is not a different con blk..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
