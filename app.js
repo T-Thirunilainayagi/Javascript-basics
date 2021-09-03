@@ -65,7 +65,33 @@ console.log(Name1.toUpperCase())
 
 // operators
 
-const names="thiru"
-// names="anu"
-// cannot Change const val
-// Aruiyhmetic operators
+//   Arithmetic operators
+
+const a = 2
+const b = 15
+
+console.log(a + b)
+
+console.log(a - b)
+
+console.log(a * b)
+
+console.log(a / b)
+
+console.log(a ** b)
+
+console.log(b % a)
+
+console.log('-------------------------------------------')
+
+let c = 5
+// Increment operators
+c += 1
+console.log(c)
+// Arithmetic assignments
+c *= 5
+
+// c operator=number is equivalent to c = c operator number
+// c = c * 5 = 5*5 = 25
+
+console.log(c)
