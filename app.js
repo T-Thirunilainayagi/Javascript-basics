@@ -231,6 +231,7 @@ else{
 // const element = document.getElementById("selectme")
 // const element = document.getElementsByClassName("heading")
 
+// *****************************
 // by using id only one element rendered.bt class name multiple (array ) of elements rendered.same for tag name also
 // const element = document.getElementsByTagName("div")
 // console.log(element)
@@ -248,11 +249,11 @@ else{
 //  to slect h3 in heading class use h3.heading similar to css
 
 const element = document.querySelector('#selectme')
-element.innerHTML = "This is from JS"
+// element.innerHTML = "This is from JS"
 
-element.style.color = "cyan"
-element.style.fontSize = "40px"
-element.style = 'display:none'
+// element.style.color = "cyan"
+// element.style.fontSize = "40px"
+// element.style = 'display:none'
 
 
 
@@ -262,7 +263,7 @@ element.style = 'display:none'
 // console.log(element.classList)
 // element.classList.remove('one')
 // console.log(element.classList)
-
+// 8****************************
 
 
 const button=document.querySelector("button")
@@ -276,9 +277,14 @@ const body =document.querySelector("body")
 // })
 // add el to specific element
 
-// button.addEventListener('click', () => {
-//   element.style="background:aqua"
-// })
+button.addEventListener('click', () => {
+  element1.style="background:aqua"
+})
+// instead of explicitly specifying style in js file create a class and define the styles in html file and call it here
+// *************
+
+
+
 button.addEventListener('click', () => {
   body.classList.toggle("dark")
 })
@@ -289,7 +295,7 @@ button.addEventListener('click', () => {
 // button.addEventListener("click",)
 // el is something that listens for an event
 
-// console.log(button,element)
+// console.log(button,element1)
 
 
 
