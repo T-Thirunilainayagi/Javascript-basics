@@ -265,6 +265,59 @@ element.style = 'display:none'
 
 
 
+const button=document.querySelector("button")
+
+const element1=document.querySelector("#selectme")
+
+const body =document.querySelector("body")
+
+// button.addEventListener('click', () => {
+//   console.log('you clicked me')
+// })
+// add el to specific element
+
+// button.addEventListener('click', () => {
+//   element.style="background:aqua"
+// })
+button.addEventListener('click', () => {
+  body.classList.toggle("dark")
+})
+// toggle is a method
+
+
+
+// button.addEventListener("click",)
+// el is something that listens for an event
+
+// console.log(button,element)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
