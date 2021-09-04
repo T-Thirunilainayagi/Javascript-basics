@@ -227,6 +227,54 @@ else{
 
 // if is a new conditional blk itself...else if is not a different con blk..
 
+// 
+// const element = document.getElementById("selectme")
+// const element = document.getElementsByClassName("heading")
+
+// by using id only one element rendered.bt class name multiple (array ) of elements rendered.same for tag name also
+// const element = document.getElementsByTagName("div")
+// console.log(element)
+
+// console.log(typeof (element))
+
+// const element = document.querySelector(".heading")
+//  console.log(element)
+
+// qs selects only first matchMedia.apply.to render all use qs all
+
+ const element = document.querySelectorAll(".heading")
+ console.log(element)
+
+//  to slect h3 in heading class use h3.heading similar to css
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
