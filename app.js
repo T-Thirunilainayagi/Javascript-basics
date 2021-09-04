@@ -242,10 +242,27 @@ else{
 
 // qs selects only first matchMedia.apply.to render all use qs all
 
- const element = document.querySelectorAll(".heading")
- console.log(element)
+//  const element = document.querySelectorAll(".heading")
+//  console.log(element)
 
 //  to slect h3 in heading class use h3.heading similar to css
+
+const element = document.querySelector('#selectme')
+element.innerHTML = "This is from JS"
+
+element.style.color = "cyan"
+element.style.fontSize = "40px"
+element.style = 'display:none'
+
+
+
+
+// console.log(element.classList)
+// element.classList.add('five')
+// console.log(element.classList)
+// element.classList.remove('one')
+// console.log(element.classList)
+
 
 
 
