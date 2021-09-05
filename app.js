@@ -205,6 +205,7 @@ else{
 
 console.log("------------")
 t=0
+
 if (typeof t==="number")
 if(t!=0)
 {
@@ -231,7 +232,6 @@ else{
 // const element = document.getElementById("selectme")
 // const element = document.getElementsByClassName("heading")
 
-// *****************************
 // by using id only one element rendered.bt class name multiple (array ) of elements rendered.same for tag name also
 // const element = document.getElementsByTagName("div")
 // console.log(element)
@@ -263,14 +263,18 @@ const element = document.querySelector('#selectme')
 // console.log(element.classList)
 // element.classList.remove('one')
 // console.log(element.classList)
-// 8****************************
+
+// just qs demo to display body tag contents in console
+const body =document.querySelector("body")
+console.log(body)
 
 
 const button=document.querySelector("button")
 
 const element1=document.querySelector("#selectme")
 
-const body =document.querySelector("body")
+// const body =document.querySelector("body")
+// already declared means cant give same value declaration again..
 
 // button.addEventListener('click', () => {
 //   console.log('you clicked me')
@@ -278,7 +282,10 @@ const body =document.querySelector("body")
 // add el to specific element
 
 button.addEventListener('click', () => {
-  element1.style="background:aqua"
+  // element1.style="background:aqua"
+  // element1.classList.add("aqua").. simply adds qua class to element 1 on first clk nd remains Static...
+  element1.classList.toggle("aqua")
+  // element1.classList.toggle("brown")
 })
 // instead of explicitly specifying style in js file create a class and define the styles in html file and call it here
 // *************
