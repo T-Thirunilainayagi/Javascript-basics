@@ -63,3 +63,79 @@ console.log(Name1.toUpperCase())
 
 
 
+// const rock=document.querySelector("#rock")
+// const paper=document.querySelector("#paper")
+// const scissor=document.querySelector("#scissor")
+
+// function logName() {
+//      console.log("Thirunilai")
+// }
+// function logName(name) {
+//     console.log(name)
+// }
+
+// logName("Nishi")
+
+// Either you can have function with parameter or no parameter also..give acc to function call.
+
+// name intialized at fun itself and scope is within the fun
+function logName(name="John Doe", age=18) {
+    console.log(name+"tou are" + age)
+}
+
+logName("Nishi",20)
+logName()
+logName("Nishi",20)
+  
+
+// never mispel keyword function
+
+// multi para can be passed 
+// var declared in function cant be used(console.log(sum)) outside since its scope is within function 
+// default value can be set
+
+function add1(a=0,b=0){
+    const sum=a+b;
+    console.log(a+b)
+
+}
+
+add1(10,20)
+// console.log(sum)
+
+function add(a=0,b=0){
+    const sum=a+b;
+    return sum;
+    // no need to specify return type 
+    // same fun 2 times dec means last one only gets executed not the fist one
+
+}
+
+
+const result=add(30,20)
+console.log(result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
