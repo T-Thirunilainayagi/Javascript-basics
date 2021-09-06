@@ -103,6 +103,10 @@ function add1(a=0,b=0){
 add1(10,20)
 // console.log(sum)
 
+
+// function using name
+
+
 function add(a=0,b=0){
     const sum=a+b;
     return sum;
@@ -110,10 +114,62 @@ function add(a=0,b=0){
     // same fun 2 times dec means last one only gets executed not the fist one
 
 }
-
-
 const result=add(30,20)
 console.log(result)
+
+
+
+
+
+
+// ECMA is a standrd pf JS. js is based..like html to xml...
+
+// function using var
+
+const addition= function(a=0,b=0){
+     return(a+b)
+}
+
+console.log(addition(40,30))
+
+// arrow function
+
+const addition1= (a=0,b=0)=>{
+    return(a+b)
+}
+console.log(addition1(40,30))
+
+
+
+// function with keyword will work even if yo place stmt before it
+
+// with arrow keyword it wont work
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
