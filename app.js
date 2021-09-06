@@ -63,9 +63,7 @@ console.log(Name1.toUpperCase())
 
 
 
-// const rock=document.querySelector("#rock")
-// const paper=document.querySelector("#paper")
-// const scissor=document.querySelector("#scissor")
+
 
 // function logName() {
 //      console.log("Thirunilai")
@@ -145,6 +143,15 @@ console.log(addition1(40,30))
 
 // with arrow keyword it wont work
 
+const rock=document.querySelector("#rock")
+const paper=document.querySelector("#paper")
+const scissor=document.querySelector("#scissor")
+
+const handler=(action) => {
+    console.log("You clicked an image")
+}
+
+rock.addEventListener("click",handler)
 
 
 
