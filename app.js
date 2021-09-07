@@ -142,6 +142,23 @@ array.forEach( (element , iteration) =>{
     console.log("next pass")
 })
 
+// balls thing
+balls.forEach((ball, iteration) => {
+    const value = iteration * 50
+    ball.style = `transform:translateY(${value}px)`
+})
+
+// template string
+// sc for printing with space
+let age = 19
+let Name = "Sakshi"
+
+console.log('Your age is ' + age)
+console.log(`Hi ${Name} Your age is ${age}`)
+
+
+
+
 
 
 
