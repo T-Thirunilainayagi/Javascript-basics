@@ -148,10 +148,34 @@ const paper=document.querySelector("#paper")
 const scissor=document.querySelector("#scissor")
 
 const handler=(action) => {
-    console.log("You clicked an image")
+    console.log("You clicked "+action)
 }
 
-rock.addEventListener("click",handler)
+// handler("rock")
+
+
+
+// rock.addEventListener("click",handler(rock))
+// here we give only function call bt it expects function defenition(we have no facility to control when to use that fun with fc alone.bcs here once call given it auto executes) i.e callback which is something to be executed after fc
+// one sol is to place the fun inside the fun call
+// rock.addEventListener("click",(action) => {
+//     console.log("You clicked an image" )}
+// )
+// Another way using keyword
+// rock.addEventListener("click",function() {
+//     console.log("You clicked an image" )}
+// )
+
+// }  Bt it is not prefered since code gets repeated
+// )
+// so just wrap the thing with arrow function and it will act as callback
+// with arrow fun we make the function passed not only fc
+
+rock.addEventListener("click", () =>{handler("rock")})
+paper.addEventListener("click",()=>{handler("paper")})
+scissor.addEventListener("click",()=>{handler("scissor")})
+//   scissor.addEventListener("click",function() {handler("scissor")})
+// selfly executed
 
 
 
