@@ -63,3 +63,36 @@ console.log(Name1.toUpperCase())
 
 
 
+// Loops concept
+
+// let i=1;
+
+// For loop
+for(var i=1;i<=10;i++){
+    // let a=10;
+    console.log("Iteration" + i)
+}
+console.log(i)
+// console.log(a) 
+// error since a is dec inside for with let
+// Above is error since i dec inside loop with let..if var used na it is printing 11
+// variable can be declared and initialized before or also in loop also
+
+// function temp(){
+//     var let="let"
+// }
+
+// console.log(let)
+
+// var inside fun also cant be used outside
+
+// **************************
+
+// while loop
+
+let iteration=1;
+while(iteration<10){
+    console.log(iteration +" next ")
+    iteration++
+}
+
