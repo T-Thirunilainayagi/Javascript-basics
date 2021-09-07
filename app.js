@@ -96,3 +96,70 @@ while(iteration<10){
     iteration++
 }
 
+
+// Array demo***************
+
+
+const balls=document.getElementsByClassName("ball")
+// const balls=document.querySelectorAll(".ball")
+const body=document.querySelector("body")
+// const body=document.getElementsByTagName("body") alt way
+
+console.log(balls)
+console.log(body)
+// above code just trial
+
+// Array methods
+const array=[1,2,3,4,5]
+console.log(array)
+
+array.push(6)
+console.log(array)
+console.log(array.length)
+
+while(array.length<10){
+    array.push("Thiru")
+}
+console.log(array)
+console.log(array.length)
+
+const index=array.indexOf(1)
+console.log(index)
+const includes=array.includes(10)
+console.log(includes)
+// dddd
+
+array.shift()
+console.log(array)
+
+array.unshift(30)
+console.log(array)
+
+array.splice(2,2)
+
+array.forEach( (element , iteration) =>{
+    console.log(element,iteration)
+    console.log("next pass")
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
