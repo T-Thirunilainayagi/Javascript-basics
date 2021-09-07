@@ -100,8 +100,8 @@ while(iteration<10){
 // Array demo***************
 
 
-const balls=document.getElementsByClassName("ball")
-// const balls=document.querySelectorAll(".ball")
+// const balls=document.getElementsByClassName("ball")
+const balls=document.querySelectorAll(".ball")
 const body=document.querySelector("body")
 // const body=document.getElementsByTagName("body") alt way
 
@@ -150,11 +150,12 @@ balls.forEach((ball, iteration) => {
 
 // template string
 // sc for printing with space
-let age = 19
-let Name = "Sakshi"
+let age5 = 19
+let Name4 = "Sakshi"
 
-console.log('Your age is ' + age)
-console.log(`Hi ${Name} Your age is ${age}`)
+console.log('Your age is ' + age5)
+console.log(`Hi ${Name4} Your age is ${age5}`)
+
 
 
 
