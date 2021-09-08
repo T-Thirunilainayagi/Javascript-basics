@@ -112,9 +112,10 @@ console.log(body)
 // Array methods
 const array=[1,2,3,4,5]
 console.log(array)
-
+// push
 array.push(6)
 console.log(array)
+// array length
 console.log(array.length)
 
 while(array.length<10){
@@ -122,21 +123,21 @@ while(array.length<10){
 }
 console.log(array)
 console.log(array.length)
-
+// indexOf
 const index=array.indexOf(1)
 console.log(index)
+// includes
 const includes=array.includes(10)
 console.log(includes)
-// dddd
-
+// shift
 array.shift()
 console.log(array)
-
+// unshift
 array.unshift(30)
 console.log(array)
-
+// splice
 array.splice(2,2)
-
+// foreach
 array.forEach( (element , iteration) =>{
     console.log(element,iteration)
     console.log("next pass")
@@ -155,6 +156,9 @@ let Name4 = "Sakshi"
 
 console.log('Your age is ' + age5)
 console.log(`Hi ${Name4} Your age is ${age5}`)
+
+
+
 
 
 
